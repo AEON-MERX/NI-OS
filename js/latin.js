@@ -5,7 +5,7 @@ const frase1 =
 Id : "1",
 Español:"Siempre lo mismo",
  Latin: "Serpem idem",
-  Sonido:  new Audio('audio1.mp3')
+  Sonido:  new Audio('./assets/audio1.mp3')
 }
 ;
 const frase2 =
@@ -13,7 +13,7 @@ const frase2 =
 Id : "2",
 Español:"Donde hay unidad, hay victoria.",
  Latin: "Ubi concordia, ibi Victoria. ",
-  Sonido:  new Audio('audio2.mp3')
+  Sonido:  new Audio('./assets/audio2.mp3')
 }
 
 ;
@@ -22,7 +22,7 @@ const frase3 =
 Id : "3",
 Español:"Las macetas vacias son las que hacen más ruido",
  Latin: "Vasa vana plurimum sonant. ",
-  Sonido:  new Audio('audio3.mp3')
+  Sonido:  new Audio('./assets/audio3.mp3')
 }
 
 ;
@@ -31,7 +31,7 @@ const frase4 =
 Id : "4",
 Español:" El destino guía a los que están dispuestos y arrastra a los que no lo están.",
  Latin: "Fata volentem ducunt, nolentem trahunt. (Séneca)",
-  Sonido:  new Audio('audio4.mp3')
+  Sonido:  new Audio('./assets/audio4.mp3')
 }
 
 ;
@@ -40,7 +40,7 @@ const frase5 =
 Id : "5",
 Español:"El que calla otorga su consentimiento.",
  Latin: "Qui tacet consentire. ",
-  Sonido:  new Audio('audio5.mp3')
+  Sonido:  new Audio('./assets/audio5.mp3')
 }
 
 ;
@@ -49,7 +49,7 @@ const frase6 =
 Id : "6",
 Español:"Por el sendero áspero, a las estrellas.",
  Latin: "Ad astra per aspera.",
-  Sonido:  new Audio('audio6.mp3')
+  Sonido:  new Audio('./assets/audio6.mp3')
 }
 
 ;
@@ -58,7 +58,7 @@ const frase7 =
 Id : "7",
 Español:"Vivamos, ya que vamos a morir.",
  Latin: "Vivamus, Moriendum Est. ",
-  Sonido:  new Audio('audio7.mp3')
+  Sonido:  new Audio('./assets/audio7.mp3')
 }
 
 ;
@@ -67,7 +67,7 @@ const frase8 =
 Id : "8",
 Español:"Atrévete a saber",
  Latin: "Sapere aude.",
-  Sonido:  new Audio('audio8.mp3')
+  Sonido:  new Audio('./assets/audio8.mp3')
 }
 
 ;
@@ -76,7 +76,7 @@ const frase9 =
 Id : "9",
 Español:"Las palabras dichas se vuelan, las escritas permanecen.",
  Latin: "Verba volant, scripta manent. ",
-  Sonido:  new Audio('audio9.mp3')
+  Sonido:  new Audio('./assets/audio9.mp3')
 }
 
 ;
@@ -85,7 +85,7 @@ const frase10 =
 Id : "10",
 Español:"La riqueza material no es la única que vale.",
  Latin: "Divitae bonum non sunt. (Séneca)",
-  Sonido:  new Audio('audio10.mp3')
+  Sonido:  new Audio('./assets/audio10.mp3')
 }
 
 ;
@@ -94,7 +94,7 @@ const frase11 =
 Id : "11",
 Español:" Los viejos hábitos son difíciles de matar.",
  Latin: "Consuetudinis magna vis est. (Cicerón)",
-  Sonido:  new Audio('audio11.mp3')
+  Sonido:  new Audio('./assets/audio11.mp3')
 }
 
 ;
@@ -108,7 +108,7 @@ Español:" Los viejos hábitos son difíciles de matar.",
  Id : "1",
  Español:"Ser o Estar",
   Latin: "SUM",
-   Sonido:  new Audio('verbo1.mp3')
+   Sonido:  new Audio('./assets/verbo1.mp3')
  }
  ;
 
