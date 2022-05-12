@@ -108,7 +108,7 @@ Español:" Los viejos hábitos son difíciles de matar.",
  Id : "1",
  Español:"Ser o Estar",
   Latin: "SUM",
-   Sonido:  new Audio('./assets/verbo1.mp3')
+   Sonido:  new Audio('./assets/audio1.mp3')
  }
  ;
 
