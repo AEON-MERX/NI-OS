@@ -1,5 +1,6 @@
 *{
     padding: none !important;
+    text-align : center !important ; 
    
 }
 .disclaimer{
@@ -50,15 +51,7 @@ background-color: black ;
     color: orangered;
     background-color: rgb(55, 50, 50);
 }
-.footers{
-    width: 100%;
-    height: 50px;
-    color: white ;
-    position: fixed;
-    bottom: 0%;
-    background-color: black;
-    text-align: center !important;
-}
+
 #libro1{
     position: absolute;
     top: 123px ;
@@ -79,33 +72,11 @@ background-color: black ;
     top: 70px ;
     right: 8px;
 }
-#master-class{
-    position: relative;
-    height: 100px;
-    width: 110px;
-    top: -170px ;
 
-    
-}
 #aeonmerx{
     height: 600px;
 background-color: rgb(117, 101, 101);
 width: auto
-;}
-@media (max-width: 1000px) {
-    body{
-        width: 100%;
-        height: 200% ;
-        display: none  !important ;
-    }
-    
-    *{
-    padding: none !important;
-    font-size: 10px !important ;
+;
 }
-    #texto1 , #texto2 , #libro1 , #libro2 , #master-class {
-        display: none;
-    }
-   
 
-  }
