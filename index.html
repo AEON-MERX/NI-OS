@@ -31,6 +31,29 @@
   body{
     padding: 0% !important;
   }
+          .condor{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: condor;
+  animation-duration: 4s;
+}
+@keyframes condor {
+  0%   { 
+ left:0px; top:0px;
+ }
+  25%  {
+ left:200px; top:0px;
+ }
+  50%  { 
+ left:200px; top:200px;
+ }
+  75%  { 
+ left:0px; top:200px;
+ }
+  100% { left:0px; top:0px;}
+}
+
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -202,29 +225,7 @@
 
 <h1 style="text-align: center;"> CONTENIDO</h1>
 <img src="condor.png"  class="condor">
-          .condor{
-  width: 100px;
-  height: 100px;
-  position: relative;
-  animation-name: condor;
-  animation-duration: 4s;
-}
-@keyframes condor {
-  0%   { 
- left:0px; top:0px;
- }
-  25%  {
- left:200px; top:0px;
- }
-  50%  { 
- left:200px; top:200px;
- }
-  75%  { 
- left:0px; top:200px;
- }
-  100% { left:0px; top:0px;}
-}
-
+ 
 </div>
 
 
