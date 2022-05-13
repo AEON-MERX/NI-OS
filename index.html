@@ -204,7 +204,22 @@
 <div class="content-wrapper" style="background-color: black !important ; color: white;">
 
 <h1 style="text-align: center;"> CONTENIDO</h1>
+<img src="condor.png"  class="condor">
+          .condor{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: condor;
+  animation-duration: 4s;
+}
 
+@keyframes condor {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
 
 </div>
 
